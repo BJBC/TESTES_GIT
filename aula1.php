@@ -1,0 +1,26 @@
+<?php
+
+//variaveis
+$anoNovo = "";
+
+$nome = "João";
+$sobrenome = "Rocha";
+$completo = $nome.$sobrenome;//concatenacao
+echo($completo);//JoãoRocha
+$completo = "$nome" " "."$sobrenome;
+echo($completo);//João Rocha
+
+echo "<br/>";//quebra de linha
+
+exit;//o php para a execução
+
+unset($nome);//limpar a variável
+if (isset($nome){//se $nome existe
+ echo($nome);
+}
+
+
+
+
+
+?>
